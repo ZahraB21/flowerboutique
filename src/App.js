@@ -13,7 +13,7 @@ function App() {
         <Banner />
       </header>
       <main></main>
-      <footer>Photo by Annie Spratt on Unsplash</footer>
+      {/* <footer>Photo by Monica Galentino on Unsplashon Unsplash</footer> */}
     </div>
   );
 }

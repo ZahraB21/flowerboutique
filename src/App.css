@@ -9,14 +9,41 @@
   width: 100%;
 }
 
-img {
-  object-fit: fit;
+/* --- HEADER --- */
+#banner a {
+  text-align: center;
 }
 
-/* --- MEDIA QUERIES --- */
-@media only screen and (min-width: 992px) {
-  #navLinks ul {
-    border: 1px solid red;
-    justify-content: flex-end;
-  }
+#banner_h1 {
+  font-size: 3.5rem;
 }
+
+#banner_img {
+  height: 50vh;
+  width: 100%;
+  z-index: -1;
+}
+
+#banner_h4 {
+  padding: 2rem 2.5rem 2.5rem 2.5rem;
+}
+
+#banner_button {
+  display: flex;
+  justify-content: center;
+}
+
+#banner_button a {
+  width: 70%;
+  padding: 10px 20px;
+  margin-bottom: 25px;
+}
+
+#banner_button a:hover {
+  background-color: white;
+  border: 2px solid red;
+  color: #333;
+  font-weight: bold;
+}
+
+@import "./assets/styles/componentStyles.css";

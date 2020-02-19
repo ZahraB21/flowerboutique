@@ -1,0 +1,29 @@
+/* --- MEDIA QUERIES --- */
+@media only screen and (min-width: 992px) {
+  #banner #banner_h1 {
+    font-size: 4.5rem;
+    width: 80vw;
+    position: relative;
+    left: -42%;
+  }
+
+  #banner img {
+    height: 93vh;
+  }
+
+  #banner_col1 {
+    position: relative;
+    left: 10.5%;
+    z-index: 1;
+  }
+
+  #banner_h4 {
+    padding: 2rem 0 2.5rem 2.5rem;
+    width: 50vw;
+  }
+
+  #banner_button {
+    position: relative;
+    left: -6%;
+  }
+}

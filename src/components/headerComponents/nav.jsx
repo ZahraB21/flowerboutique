@@ -14,7 +14,7 @@ class Nav extends Component {
       <div className="collapse navbar-collapse" id="navLinks">
         <ul className="navbar-nav mr-auto">
           {this.state.links.map(link => (
-            <li className="nav-item" key={link.id}>
+            <li className="nav-item text-light" key={link.id}>
               <a
                 href={"#".concat(
                   link.value
@@ -22,7 +22,7 @@ class Nav extends Component {
                     .split(" ")
                     .join("")
                 )}
-                className="nav-link"
+                className="nav-link text-light"
               >
                 {link.value}
               </a>
