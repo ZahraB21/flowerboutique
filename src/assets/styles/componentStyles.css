@@ -1,5 +1,23 @@
 /* --- MEDIA QUERIES --- */
 @media only screen and (min-width: 992px) {
+  #navLinks {
+    margin-right: 3em;
+  }
+
+  .navbar-expand-lg .navbar-nav {
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .navbar-nav .nav-item,
+  .navbar-nav .nav-link {
+    margin-left: 50px;
+  }
+
+  .navbar-brand {
+    margin-left: 3em;
+  }
+
   #banner #banner_h1 {
     font-size: 4.5rem;
     width: 80vw;

@@ -15,15 +15,7 @@ class Nav extends Component {
         <ul className="navbar-nav mr-auto">
           {this.state.links.map(link => (
             <li className="nav-item text-light" key={link.id}>
-              <a
-                href={"#".concat(
-                  link.value
-                    .toLowerCase()
-                    .split(" ")
-                    .join("")
-                )}
-                className="nav-link text-light"
-              >
+              <a href="" className="nav-link text-light">
                 {link.value}
               </a>
             </li>
