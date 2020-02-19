@@ -6,4 +6,17 @@
 .col-lg-6 {
   margin: 0;
   padding: 0;
+  width: 100%;
+}
+
+img {
+  object-fit: fit;
+}
+
+/* --- MEDIA QUERIES --- */
+@media only screen and (min-width: 992px) {
+  #navLinks ul {
+    border: 1px solid red;
+    justify-content: flex-end;
+  }
 }

@@ -1,5 +1,7 @@
 import React from "react";
-import Navbar from "./components/navbar";
+import Navbar from "./components/headerComponents/navbar";
+import Banner from "./components/headerComponents/banner";
+
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
 
@@ -8,9 +10,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Navbar />
+        <Banner />
       </header>
       <main></main>
-      <footer></footer>
+      <footer>Photo by Annie Spratt on Unsplash</footer>
     </div>
   );
 }
