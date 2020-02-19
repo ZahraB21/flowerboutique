@@ -1,0 +1,9 @@
+@import "normalize.css";
+
+.container-fluid,
+.row,
+.col-12,
+.col-lg-6 {
+  margin: 0;
+  padding: 0;
+}
