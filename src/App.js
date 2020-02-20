@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/headerComponents/navbar";
 import Banner from "./components/headerComponents/banner";
+import Mission from "./components/mainComponents/mission";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
@@ -12,8 +13,10 @@ function App() {
         <Navbar />
         <Banner />
       </header>
-      <main></main>
-      {/* <footer>Photo by Monica Galentino on Unsplashon Unsplash</footer> */}
+      <main>
+        <Mission />
+      </main>
+      {/* <footer>Photos by Monica Galentino, Thomas AE Lanty on Unsplashon</footer> */}
     </div>
   );
 }

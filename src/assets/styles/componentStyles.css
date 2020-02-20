@@ -44,4 +44,31 @@
     position: relative;
     left: -6%;
   }
+
+  /* --- MAIN --- */
+
+  main #our_mission {
+    border-bottom: 1px solid white;
+  }
+
+  main #our_mission h4 {
+    width: 72%;
+    padding-top: 0;
+    padding-bottom: 2.75rem;
+  }
+
+  main #our_mission #carousel .row {
+    margin-top: 125px;
+  }
+
+  main #our_mission img {
+    padding: 0 5px;
+  }
+
+  main #our_mission #image2 {
+    padding: 0 5px;
+    object-fit: fill;
+    position: relative;
+    bottom: 25%;
+  }
 }
