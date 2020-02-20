@@ -71,4 +71,8 @@
     position: relative;
     bottom: 25%;
   }
+
+  main #flowers {
+    margin-top: 50px;
+  }
 }
