@@ -53,9 +53,6 @@
 }
 
 #our_mission {
-  height: 100vh;
-  /* background-color: #f6f5fb; */
-  border-bottom: 100px solid white;
   background-image: linear-gradient(
     to bottom right,
     #fadcdc,
@@ -78,6 +75,10 @@
   padding: 2.5rem;
 }
 
+main #our_mission #gallery {
+  /* height: 200px; */
+}
+
 #our_mission img {
   padding: 15px 15px 1px 15px;
 }
@@ -90,11 +91,16 @@
   position: relative;
   top: 111.5vh;
   height: 100vh;
+  /* background-image: url(./assets/images/alison-cosker.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 #flowers h1 {
   padding: 15px;
-  margin-top: 75px;
+  margin-top: 130px;
+  margin-bottom: 70px;
 }
 
 #flowers h3 {
@@ -112,10 +118,6 @@
 #flowers #slider {
   min-height: 600px;
   overflow: hidden;
-}
-
-#flowers #slider img #image1 {
-  /* min-height: 55em; */
 }
 
 @import "./assets/styles/componentStyles.css";

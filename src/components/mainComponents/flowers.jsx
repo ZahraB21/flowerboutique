@@ -33,6 +33,7 @@ class Flowers extends Component {
         <div className="container-fluid">
           <div className="row">
             <div className="col-12">
+              <img src="" alt="" />
               <h1 className="text-center">Flowers For You</h1>
             </div>
           </div>

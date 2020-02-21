@@ -13,18 +13,15 @@ class Carousel extends Component {
   };
   render() {
     return (
-      <div className="container-fluid" id="carousel">
+      <div className="container-fluid" id="gallery">
         <div className="row">
           {this.state.images.map(image => {
             return (
-              <div
-                className="col-12 col-lg-4 ml-auto mr-auto justify-content-between"
-                key={image.id}
-              >
+              <div className="col-12 col-lg-4 ml-auto mr-auto" key={image.id}>
                 <img
                   id={"image".concat(image.id)}
                   src={image.value}
-                  alt=""
+                  alt="gallery image"
                   className="img-fluid"
                 />
               </div>

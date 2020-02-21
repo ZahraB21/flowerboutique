@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import Carousel from "./carousel";
+import Gallery from "./gallery";
 
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -23,7 +23,7 @@ class Mission extends Component {
             </div>
           </div>
         </div>
-        <Carousel />
+        <Gallery />
       </section>
     );
   }
