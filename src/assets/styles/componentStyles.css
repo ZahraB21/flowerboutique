@@ -73,6 +73,10 @@
   }
 
   main #flowers {
-    margin-top: 50px;
+    margin-top: 35px;
+  }
+
+  #flowers h3 {
+    padding: 0 40px;
   }
 }

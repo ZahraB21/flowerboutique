@@ -18,7 +18,7 @@ function App() {
         <Mission />
         <Flowers />
       </main>
-      {/* <footer>Photos by Monica Galentino, Thomas AE Lanty on Unsplashon</footer> */}
+      {/* <footer>Photos by Monica Galentino, Thomas AE, Lanty, Maryna Vladymyrska on Unsplashon</footer> */}
     </div>
   );
 }

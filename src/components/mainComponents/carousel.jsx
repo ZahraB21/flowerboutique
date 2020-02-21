@@ -17,7 +17,10 @@ class Carousel extends Component {
         <div className="row">
           {this.state.images.map(image => {
             return (
-              <div className="col-12 col-lg-4 ml-auto mr-auto justify-content-between">
+              <div
+                className="col-12 col-lg-4 ml-auto mr-auto justify-content-between"
+                key={image.id}
+              >
                 <img
                   id={"image".concat(image.id)}
                   src={image.value}
