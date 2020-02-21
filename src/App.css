@@ -57,13 +57,7 @@
   /* background-color: #f6f5fb; */
   border-bottom: 100px solid white;
   background-image: linear-gradient(
-    to bottom,
-    #fadcdc,
-    white,
-    white,
-    white,
-    white,
-    #fadcdc,
+    to bottom right,
     #fadcdc,
     white,
     white,
@@ -93,11 +87,13 @@
 }
 
 #flowers {
-  margin-top: 105vh;
-  height: 90vh;
+  position: relative;
+  top: 111.5vh;
+  height: 100vh;
 }
 
 #flowers h1 {
+  padding: 15px;
   margin-top: 75px;
 }
 
