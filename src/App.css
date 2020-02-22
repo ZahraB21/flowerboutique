@@ -76,7 +76,7 @@
 }
 
 main #our_mission #gallery {
-  /* height: 200px; */
+  padding-bottom: 25px;
 }
 
 #our_mission img {
