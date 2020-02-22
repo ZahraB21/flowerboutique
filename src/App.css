@@ -55,15 +55,6 @@
 #our_mission {
   background-image: url(../src/assets/images/lightBackground.png);
   background-repeat: repeat-y;
-  /* background-image: url(../src/assets/images/darkBackground.png);
-  background-repeat: repeat; */
-}
-
-#our_mission #darkBackground {
-  /* background-image: url(../src/assets/images/darkBackground.png);
-  background-repeat: repeat; */
-  width: 100%;
-  height: 100px;
 }
 
 #our_mission h1,
@@ -87,27 +78,18 @@ main #our_mission #gallery {
   padding: 15px 15px 1px 15px;
 }
 
-#our_mission #image3 {
+/* #our_mission #image3 {
   margin-bottom: 15px;
-}
+} */
 
 #flowers {
-  position: relative;
-  top: 111.5vh;
-  height: 100vh;
-  /* background-image: url(./assets/images/alison-cosker.jpg);
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: cover; */
 }
 
 #flowers h1 {
-  padding: 15px;
-  margin-top: 130px;
-  margin-bottom: 70px;
+  margin: 30px 0;
 }
 
-#flowers h3 {
+#flowers h4 {
   padding: 20px 40px;
   text-align: justify;
   color: white;

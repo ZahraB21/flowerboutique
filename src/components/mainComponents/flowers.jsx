@@ -33,24 +33,23 @@ class Flowers extends Component {
         <div className="container-fluid">
           <div className="row">
             <div className="col-12">
-              <img src="" alt="" />
-              <h1 className="text-center">Flowers For You</h1>
+              <h1 className="text-center"> Flowers For Brides</h1>
             </div>
           </div>
           <div className="row">
             <div className="col-12 col-lg-6 bg-dark" id="content">
-              <h3>
+              <h4>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
                 accusantium accusamus iure ut voluptatum ipsum ad quod nulla,
                 impedit nemo repellat ipsa quas magnam eius consequuntur eos
                 iusto quaerat corporis.
-              </h3>
-              <h3>
+              </h4>
+              <h4>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
                 similique repudiandae alias ullam vel quo, sint numquam et harum
                 ipsum officiis, earum est nisi, reiciendis ipsam fuga nihil
                 eaque. Voluptatum!
-              </h3>
+              </h4>
             </div>
             <div className="col-12 col-lg-6 bg-light">
               <CarouselProvider

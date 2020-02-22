@@ -71,12 +71,10 @@
   }
 
   main #flowers h1 {
-    padding: 30px;
-    margin-top: 100px;
-    margin-bottom: 40px;
+    margin: 0 0 30px 0;
   }
 
-  #flowers h3 {
+  #flowers h4 {
     padding: 0 40px;
   }
 }
