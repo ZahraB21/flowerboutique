@@ -53,13 +53,17 @@
 }
 
 #our_mission {
-  background-image: linear-gradient(
-    to bottom right,
-    #fadcdc,
-    white,
-    white,
-    #fadcdc
-  );
+  background-image: url(../src/assets/images/lightBackground1.png);
+  background-repeat: repeat-y;
+  /* background-image: url(../src/assets/images/darkBackground.png);
+  background-repeat: repeat; */
+}
+
+#our_mission #darkBackground {
+  /* background-image: url(../src/assets/images/darkBackground.png);
+  background-repeat: repeat; */
+  width: 100%;
+  height: 100px;
 }
 
 #our_mission h1,
