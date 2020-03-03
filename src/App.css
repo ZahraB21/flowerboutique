@@ -92,13 +92,17 @@ main #our_mission #gallery {
 #flowers h4 {
   padding: 20px 40px;
   text-align: justify;
-  color: white;
+  /* color: white; */
 }
 
 #flowers #content {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: url(../src/assets/images/flower_background1.png) no-repeat
+    no-repeat;
+  object-fit: contain;
+  color: #333;
 }
 
 #flowers #slider {

@@ -37,7 +37,7 @@ class Flowers extends Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-12 col-lg-6 bg-dark" id="content">
+            <div className="col-12 col-lg-6" id="content">
               <h4>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
                 accusantium accusamus iure ut voluptatum ipsum ad quod nulla,
@@ -51,7 +51,7 @@ class Flowers extends Component {
                 eaque. Voluptatum!
               </h4>
             </div>
-            <div className="col-12 col-lg-6 bg-light">
+            <div className="col-12 col-lg-6">
               <CarouselProvider
                 naturalSlideWidth={100}
                 naturalSlideHeight={100}
